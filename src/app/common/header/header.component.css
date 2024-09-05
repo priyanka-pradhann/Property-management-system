@@ -1,0 +1,49 @@
+.my-navbar {
+    width: 100%;
+    height: 70px;
+    background: rgb(150, 23, 23);
+    background: linear-gradient(94deg, rgba(150, 23, 23, 1) 0%, rgb(64,93,249));
+    position: fixed;
+    z-index: 9;
+    padding-left: 300px;
+    border-bottom: 1px solid #f9f5f5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.left-nav h4 {
+    color: #fff;
+     font-size: 20px;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+.bell {
+    margin-right: 25px;
+}
+.profile {
+    display: flex;
+}
+
+.profile img {
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+.profile span {
+    color: white;
+}

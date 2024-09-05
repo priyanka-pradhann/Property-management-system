@@ -1,0 +1,70 @@
+<div class="Main-container">
+    <div class="floating-container">
+      <div class="container-head">
+        <div class="heading">
+          <div>
+            
+            <h4>Information</h4>
+            <span><a href="#">Home</a> / Pages</span>
+          </div>
+          
+        </div>
+      </div>
+      <div class="card-box3">
+        <div class="my-card">
+
+            <form [formGroup]="validationForm">
+  
+                <div class="my-form">
+                    <div class="head"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                    <h6>Find info</h6>
+                    </div>
+                    <div class="row input-space">
+                        
+                        <div class="col-md-3">
+                            <label for="">Name</label>
+                            <input class="input" type="text" placeholder="Enter Name" value="" formControlName="searchnameFC">
+                            <span class="error-text" *ngIf="wordError">{{wordErrorValue}}</span>
+    
+                        </div>
+                        <div class="col-md-3">
+                            <label for="">Mobile</label>
+                            <input class="input" type="text" placeholder="Enter Mobile" value="" formControlName="searchnumberFC">
+                            <span class="error-text" *ngIf="wordError2">{{wordErrorvalue2}}</span>
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <label for="">Email</label>
+                            <input class="input" type="text" placeholder="Enter email" value="" formControlName="searchemailFC">
+                            <span class="error-text" *ngIf="wordError3">{{wordErrorvalue3}}</span>
+                        </div>
+                        <div class="col-md-3">
+                            <p>{{getdata}}</p>
+                            <p>{{getdata2}}</p>
+                            <p>{{getdata3}}</p>
+
+                        </div>
+
+                    
+                    </div>
+                    <div class="row input-space">
+                        <div class="col-md-6">
+                            <button class="filter-btn" (click)="submitForm()">Submit</button>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </form>
+          
+        </div>
+      </div>
+    </div>
+    </div>
+  
+
+
+
+

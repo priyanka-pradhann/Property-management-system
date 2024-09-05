@@ -1,0 +1,184 @@
+.mycontainer{
+    height: 100vh;
+    width: 100%;
+    background-color: #E9E6F7;
+}
+.new-container{
+    display: flex;
+    justify-content: space-between;
+     margin-bottom: 30px;
+    
+}
+.my-new-container{
+    position: relative;
+    top: -108px;
+}
+
+/* .main-container1{
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(150, 23, 23);
+    background: linear-gradient(94deg, rgba(150, 23, 23, 1) 0%, rgb(64,93,249));
+    border-top: 1px solid#e4e4e4;
+
+}  */
+.new3{
+    padding-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.new3 h3{
+    color: #fff;
+}
+.new3 p{
+    color: #fff;
+}
+.home{
+    text-decoration: none;
+    color: #fff;
+}
+.my-card{
+    padding: 30px 150px;
+}
+.heading {
+    background-color: #fff;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    /* height: 450px;  */
+     float: left; 
+     box-shadow: 1px 4px 7px rgba(0,0,0,.08);
+  
+} 
+
+.select-service {
+    margin-bottom: 30px;
+   height: 40px;
+   width: 100%;
+
+}
+
+.time-container {
+    width: 100%;
+    position: relative;
+   margin-bottom: 30px;
+}
+
+.my-input input {
+
+    width: 100%;
+    height: 40px;
+    z-index: 3;
+
+   
+}
+.mylabel{
+    font-size: medium;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.my-select select {
+    position: absolute;
+    height: 36px;
+    border: none;
+    border-left: 1px solid #cccccc;
+    right: 0;
+    z-index: 1;
+    top: 0;
+    margin: 2px;
+
+}
+.add {
+    width: 30px;
+    margin-top: 30px;
+
+}
+
+.mytime {
+    padding: 10px;
+    background-color: rgb(13, 90, 13);
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.remove {
+    width: 20px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.my-row{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #CECFD0;
+    padding-bottom: 30px;
+}
+.my-row .checkbox{
+    border-radius: 15px;
+    border: transparent;
+    background-color: #113cd4;
+    border: 1px solid #113cd4;
+    margin-left: 20px;
+    padding: 0 10px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+}
+.my-row .checkbox2{
+    border-radius: 15px;
+    border: transparent;
+    background-color: #8f91ed;
+    border: 1px solid #8f91ed;
+    margin-left: 20px;
+    padding: 0 10px;
+    display: inline-flex;
+    align-items: center;
+
+}
+.my-row .checkbox input{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+.my-row .checkbox2 input{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.submitbutton {
+    /* background-color: #422fc5; */
+    background: rgb(30, 57, 251);
+    background: linear-gradient(90deg, rgba(30, 57, 251, 1) 0%, rgba(54, 60, 110, 1) 49%, rgba(32, 51, 254, 1) 100%);
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 40px;
+    float: right;
+   
+}
+
+.submitbutton:hover{
+    background: rgb(6,46,125);
+    background: linear-gradient(96deg, rgba(6,46,125,1) 14%, rgba(17,16,16,1) 50%, rgba(2,34,115,1) 80%) !important;
+}
+
+.submitbutton:active{
+    background: rgb(83,133,232);
+    background: linear-gradient(63deg, rgba(83,133,232,1) 21%, rgba(81,81,83,1) 50%, rgba(82,126,238,1) 85%) !important;
+}
+
+input,
+select {
+    border: 1px solid #cccccc;
+    /* box-shadow: 1px 4px 7px rgba(0,0,0,.08); */
+
+}

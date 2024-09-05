@@ -1,0 +1,40 @@
+{
+  "time_slot": [
+    {
+      "id": 1,
+      "time_slot_from": "09:00",
+      "time_slot_to": "10:00",
+      "hour_format": "AM",
+      "created_at": "12-05-2023 09:15 AM",
+      "service_type": "time pass",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "time_slot_from": "10:00",
+      "time_slot_to": "11:00",
+      "hour_format": "AM",
+      "created_at": "12-05-2023 09:18 AM",
+      "service_type": "Electrician nothing",
+      "status": 0
+    },
+    {
+      "id": 3,
+      "time_slot_from": "11:00",
+      "time_slot_to": "12:00",
+      "hour_format": "PM",
+      "created_at": "12-05-2023 09:22 AM",
+      "service_type": "Maid",
+      "status": 1
+    },
+    {
+      "id": 4,
+      "time_slot_from": "12:00",
+      "time_slot_to": "01:00",
+      "hour_format": "PM",
+      "created_at": "12-05-2023 09:25 AM",
+      "service_type": "Laundry",
+      "status": 1
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+<div class="Main-container">
+    <div class="floating-container">
+      <div class="container-head">
+        <div class="heading">
+          <div>
+            
+            <h4>Information</h4>
+            <span><a href="#">Home</a> / Pages</span>
+          </div>
+          
+        </div>
+      </div>
+      <div class="card-box3">
+        <div class="my-card">
+
+            <form [formGroup]="getcolourForm">
+  
+                <div class="my-form">
+                    <div class="head"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                    <h6>Colour</h6>
+                    </div>
+                    <div class="row input-space">
+                        
+                        <div class="col-md-3">
+                            <label for="">Colour</label>
+                            <input class="input" type="text" placeholder="Enter Colour" value="" formControlName="searchcolour">
+            
+    
+                        </div>
+                        <div class="col-md-3">
+                            <div class="my-box" [ngClass]="myclasses">
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="">Colour</label>
+                            <input class="input" type="text" placeholder="Enter Colour" value="" formControlName="removecolor">
+                        </div>
+                        <div class="col-md-3">
+                            <div class="minibox1 orange" [ngClass]="myclass">
+
+                            </div>
+                            <div class="minibox2 lilac" [ngClass]="myclass2">
+
+                            </div>
+                            <div class="minibox3 pink" [ngClass]="myclass3">
+
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    <div class="row input-space">
+                        <div class="col-md-6">
+                            <button class="filter-btn" (click)="submitcolour()">Submit</button>
+                        </div>
+                    </div>
+                    <div class="row input-space">
+                        <div class="col-md-6">
+                            <button class="filter-btn" (click)="submitbtn()">Submit btn</button>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+          
+        </div>
+      </div>
+    </div>
+    </div>
+  
+
+
+
+
+

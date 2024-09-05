@@ -1,0 +1,106 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+.Main-container {
+    background-color: #E9E6F7;
+}
+.floating-container{
+    position: relative;
+    top: -100px;
+}
+.header {
+    height: 150px;
+    background: rgb(140, 53, 78);
+    background: linear-gradient(74deg, rgba(140, 53, 78, 1) 10%, rgba(64, 94, 250, 1) 67%);
+    width: 100%;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+}
+
+.my-form {
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    
+}
+
+.head {
+    display: flex;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #c1c1c1;
+    padding: 10px 15px;
+}
+
+.head svg {
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.input-space {
+    padding: 15px;
+}
+.input-space label{
+    margin-bottom: 2px;
+    color: #4a4a4a;
+}
+
+.input-space .input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #d7d7d7;
+}
+
+
+.input-space .filter-btn {
+    border-radius: 15px;
+    padding: 2px 10px;
+    border: transparent;
+    background: rgb(0, 24, 145);
+    background: radial-gradient(circle, rgba(0, 24, 145, 1) 39%, rgba(32, 159, 164, 1) 100%);
+    color: white;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.input-space .reset-btn {
+    border-radius: 15px;
+    padding: 2px 10px;
+    border: 1px solid #44b7dd;
+    color: #44b7dd;
+    background-color: #fff;
+    text-align: center;
+}
+.card-box3{
+    padding: 30px 60px;
+}
+.my-card {
+    width: 100%;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #fff;
+    -webkit-box-shadow: -12px 9px 10px -5px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: -12px 9px 10px -5px rgba(0, 0, 0, 0.14);
+    box-shadow: -12px 9px 10px -5px rgba(0, 0, 0, 0.14);
+}
+
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 50px;
+    margin-bottom: 30px;
+}
+.heading a{
+    text-decoration: none;
+    color: white;
+}
+.heading h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+.error-text{
+    color: rgb(225, 57, 57);
+    font-size: smaller;
+}

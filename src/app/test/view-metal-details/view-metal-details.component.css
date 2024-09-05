@@ -1,0 +1,20 @@
+.Main-container {
+    background-color: #E9E6F7;
+}
+.card-box3{
+    padding: 30px 60px;
+}
+.my-card {
+    width: 100%;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #fff;
+    -webkit-box-shadow: -12px 9px 10px -5px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: -12px 9px 10px -5px rgba(0, 0, 0, 0.14);
+    box-shadow: -12px 9px 10px -5px rgba(0, 0, 0, 0.14);
+}
+
+
+
+
+
